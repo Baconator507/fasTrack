@@ -622,3 +622,10 @@ ul.the-icons li {
 ul.the-icons li:hover {
 	background:#eee;
 }
+
+
+/*checkmark*/
+
+.checkmark li:before {
+    content:"\2713\0020";
+}

@@ -5,7 +5,7 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html class="not-ie" lang="en"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-	<title>Landing page template for your project</title>
+	<title>Fastrack | Localizador Satelital</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Page description">
 	<meta name="author" content="Your name">
@@ -46,14 +46,16 @@
 						<span class="icon-bar"></span>
 					</a>
 					<a class="brand" href="index.html">
-						<b>Your</b>Site
+						Fas<b>Track</b>
+						
 					</a>
+
 					<div class="nav-collapse fr">
 						<ul class="nav">
-							<li><a href="index.html">Home</a></li>
+							<li class="active"><a href="index.html">Home</a></li>
 							<li><a href="work.html">Our work</a></li>
 							<li><a href="about.html">About us</a></li>
-							<li class="active"><a href="plans.html">Pricing</a></li>
+							<li><a href="plans.html">Pricing</a></li>
 							<li><a href="explore.html">Explore</a></li>
 							<li><a href="faq.html">FAQ</a></li>
 							<li><a href="alt.html">Alt</a></li>
@@ -69,122 +71,110 @@
 	================================================== -->
 	<div id="content" class="container">
 	<div class="hero-unit">
-		<div class="container">
-			<h1 class="ac">Plans and pricing!</h1><br />
-			<p class="ac">
-				This is a template for a simple pricing table.
-				Take a look at our pricing options.
-			</p>
+
+		<!-- headin gtext -->
+		<p class="ac">
+			Fas<strong>Track</strong> | Localizador Satelital 
+		</p>
+
+		<!-- Carousel -->	
+		<div id="macbook_carousel">
+			<div id="carousel" class="carousel slide" rel="carousel">
+				<!-- Carousel items -->				
+				<div class="carousel-inner">
+					<div class="active item">
+						<img src="img/carousel/1.jpg" />
+					</div>
+					<div class="item">
+						<img src="http://placehold.it/600x360/C2D9A3/fff" />
+					</div>
+					<div class="item">
+						<img src="http://placehold.it/600x360/47BFA6/fff" />
+					</div>
+				</div>
+				<!-- Carousel navigation -->
+				<a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
+				<a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
+			</div>
 		</div>
 	</div>
 
-	<!-- Example pricing -->
-	<div class="row pricing">
-
-		<div class="span4">
-			<div class="well">
-				<h2> Personal</h2>
-				<ul>
-					<li>&#10004; 5 users</li>
-					<li>&#10004; 1TB of space</li>
-					<li>&#10006; Limited access</li>
-					<li>&#10006; No phone support</li>
-				</ul>
-				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-				<hr />
-				<h3 class="ac">$5.99 / month</h3>
-				<hr />
-				<p class="ac">
-					<a class="btn btn-success btn-large" href="#">Select plan &raquo;</a>
-				</p>
-			</div>
-		</div>
-		<div class="span4 most-popular">
-			<div class="well">
-				<h2>Empresarial</h2>
-				<p><span>POPULAR</span></p>
-				<ul>
-					<li>&#10004; 20 users</li>
-					<li>&#10004; Unlimited access</li>
-					<li>&#10004; 3TB of space</li>
-					<li>&#10004; E-mail support</li>
-				</ul>          
-				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-				<hr />
-				<h3 class="ac">$15.99 / month</h3>
-				<hr />
-				<p class="ac">
-					<a class="btn btn-success btn-large" href="#">&#10004; Select plan</a>
-				</p>
-			</div>
+	<div class="row">
+		<div class="span8">
+			<h1 class="lead">
+				<b>Fas<strong>Track</strong></b> es un sistema de localización satelital que utiliza herramientas de posicionamiento global (GPS) y mapas digitalizados para una medida de nuevas soluciones tecnológicas y de información para fortalecer la supervisión, seguridad, y control de los recursos móviles de una empresa.
+			</h1>
 		</div>
 		<div class="span4">
-			<div class="well">
-				<h2>Activos</h2>
-				<ul>
-					<li>&#10004; Unlimited users</li>
-					<li>&#10004; Unlimited access</li>
-					<li>&#10004; 100TB of space</li>
-					<li>&#10004; Phone and e-mail support</li>
-				</ul>          
-				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-				<hr />
-				<h3 class="ac">$25.99 / month</h3>
-				<hr />
-				<p class="ac">
-					<a class="btn btn-success btn-large" href="#">Select plan &raquo;</a>
-				</p>
-			</div>
+			
+			<p class="ac">
+				<a class="btn btn-large btn-primary" href="plans.html" title=""><b>Leer Más..</b></a>
+			</p>
 		</div>
 	</div>
 
 	<hr />
 
 	<div class="row">
-		<div class="span12">
-			<h1 class="lead">
-				<b>All plans comes with 90-day</b> money-back guarantee.
-			</h1>
+		<div class="span4">
+			<h2><span class="grey">FasTrack</span> Personal</h2>
+				<ul style="list-style-type:none;">
+  				 <li>&#10004;  Auto Particular </li>
+ 				<li>&#10004;  Personas (Protegiendo a tus Seres queridos)</li>
+				</ul>
+			<a class="" href="plans.html">Leer Más.. &raquo;</a></p>
+	 	</div>
+		<div class="span4">
+			<h2><span class="grey">FasTrack</span> Empresarial</h2>
+			 <ul style="list-style-type:none;"><li>Flotas de Autos</li>
+				<li>&#10004;  Flotas de Buses </li>
+				<li>&#10004;  Flotas de Camiones </li>
+				<li>&#10004;  Flotas de Motos </li>
+				<li>&#10004;  Flotas Marinas</li>
+				<li>&#10004;  Flotas Aéreas </li>
+						</ul>
+
+<a class="" href="plans.html">Leer Más.. &raquo;</a></p>
+		</div>
+		<div class="span4">
+			<h2><span class="grey">FasTrack</span> Activos</h2>
+			<ul style="list-style-type:none;"><li>&#10004;  Unidades Eléctricas (Plantas Eléctricas)</li></ul>
+			<p><a class="" href="plans.html">Leer Más.. &raquo;</a></p>
 		</div>
 	</div>
-
 	</div>
 
 	<footer class="row">
 		<div class="container">
 			<div class="row">
 				<div class="span2">
-					<h3>Quick links</h3>
+					<h3>Enlaces</h3>
 					<ul>
-						<li><a href="#" title="">Home</a></li>
-						<li><a href="#" title="">Our work</a></li>
-						<li><a href="#" title="">About us</a></li>
+						<li><a href="index.html" title="">Home</a></li>
+						<li><a href="explore.html" title="">¿Qué es Fas<strong>Track</strong>?</a></li>
+						<li><a href="about.html" title="">Sobre Nosotros</a></li>
 					</ul>
 				</div>
 				<div class="span2">
 					<br /><br />
 					<ul>
-						<li><a href="#" title="">Pricing</a></li>
-						<li><a href="#" title="">Explore</a></li>
-						<li><a href="#" title="">Contact</a></li>
+						<li><a href="work.html" title="">Servicios</a></li>
+						<li><a href="plans.html" title="">Planes</a></li>
+						<li><a href="contact.html" title="">Contáctenos</a></li>
+						
 					</ul>
 				</div>
 				<div class="span4 social-networks">
-					<h3>Stay in touch</h3>
-					<p>Stay in touch on social networks</p>
+					<h3>Redes Sociales</h3>
+					<p>Entérate de lo ultimo...</p>
 					<a href="#" title="Follow us on Facebook" class="icon-facebook"></a>
-					<a href="#" title="Follow us on Twitter" class="icon-twitter"></a>
-					<a href="#" title="Follow us on Google Plus" class="icon-google-plus"></a>
-					<a href="#" title="Follow us on Google Plus" class="icon-github"></a>
-					<a href="#" title="Follow us on Google Plus" class="icon-pinterest"></a>
+					<a href="https://twitter.com/FasTrack_pty" title="Siguenos en Twitter" class="icon-twitter"></a>
+					<a href="#" title="Siguenos en Google Plus" class="icon-google-plus"></a>
 				</div>
 				<div class="span4">
-					<h3>Newsletter</h3>
-					<p>Subscribe to our monthly newsletter and be the first to know about our news and special deals!</p>
-					<form>
-						<input type="text" placeholder="Enter your E-mail" />
-						<input type="submit" class="btn" value="Ok" />
-					</form>
+					<h3>Twitter</h3>
+					<p>Poner twitter live aqui.</p>
+				
 				</div>
 			</div> <!-- /row -->		
 		</div> <!-- /container -->
@@ -193,15 +183,15 @@
 		<div class="container">
 			<div class="row">
 				<div class="span4">
-					&copy; 2010—2012 Your company
+					&copy; 2012 Fas<strong>Track</strong> Satelital
 				</div>
 				<div class="span4">
 					<i class="icon-phone"></i> &nbsp; 
-					00123 320 000 123 456
+					+507 270-3133
 				</div>
 				<div class="span4">
 					<i class="icon-envelope"></i> &nbsp; 
-					hello@yourcomapny.com
+					contactenos@fastrack.com.pa
 				</div>
 			</div> <!-- end .row -->		
 		</div> <!-- end .container -->		
