@@ -5,7 +5,7 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html class="not-ie" lang="en"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-	<title>FasTrack | Planes</title>
+	<title>FasTrack | Contáctenos</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Page description">
 	<meta name="author" content="Your name">
@@ -50,12 +50,12 @@
 					</a>
 					<div class="nav-collapse fr">
 								<ul class="nav">
-							<li><a href="index.html" title="">Home</a></li>
+							<li class="active"><a href="index.html" title="">Home</a></li>
 						<li><a href="explore.html" title="">¿Qué es Fas<strong>Track</strong>?</a></li>
 						<li><a href="about.html" title="">Sobre Nosotros</a></li>
 						<li><a href="work.html" title="">Servicios</a></li>
-						<li class="active"><a href="plans.html" title="">Planes</a></li>
-						<li><a href="contact.html" title="">Contáctenos</a></li>
+						<li><a href="plans.html" title="">Planes</a></li>
+						<li class="active"><a href="contact.html" title="">Contáctenos</a></li>
 
 						</ul>
 					</div><!--/.nav-collapse -->
@@ -66,86 +66,25 @@
 	<!-- Content
 	================================================== -->
 	<div id="content" class="container">
-	<div class="hero-unit">
-		<div class="container">
-			<h1 class="ac">Plans and pricing!</h1><br />
-			<p class="ac">
-				This is a template for a simple pricing table.
-				Take a look at our pricing options.
+</div>
+
+<iframe width="100%" height="420" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;t=m&amp;ll=8.992996,-79.50354&amp;spn=0.003709,0.00456&amp;z=17&amp;output=embed"></iframe>
+
+	<div class="container hero-unit">
+		<div class="row">
+			<p class="span4 ac">
+				<br />
+				<a href="mailto:admin@fastrack.com.pa" class="btn btn-large btn-primary"><b>@ Envianos un email</b></a><br /><br />
+				<b>Fastrack</b><br />Calle 50, Ciudad de Panama</br>Frente al Rey de Calle 50
+			</p>
+			<p class="span4">
+				We combine industry expertise with innovative technology to deliver critical information to leading decision makers in the financial, legal, tax and accounting, healthcare, science and media markets, powered by the world’s most trusted news organization.
+			</p>
+			<p class="span4">
+				We combine industry expertise with innovative technology to deliver critical information to leading decision makers in the financial, legal, tax and accounting, healthcare, science and media markets, powered by the world’s most trusted news organization.
 			</p>
 		</div>
 	</div>
-
-	<!-- Example pricing -->
-	<div class="row pricing">
-
-		<div class="span4">
-			<div class="well">
-				<h2> Personal</h2>
-				<ul>
-					<li>&#10004; 5 users</li>
-					<li>&#10004; 1TB of space</li>
-					<li>&#10006; Limited access</li>
-					<li>&#10006; No phone support</li>
-				</ul>
-				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-				<hr />
-				<h3 class="ac">$5.99 / month</h3>
-				<hr />
-				<p class="ac">
-					<a class="btn btn-success btn-large" href="#">Select plan &raquo;</a>
-				</p>
-			</div>
-		</div>
-		<div class="span4 most-popular">
-			<div class="well">
-				<h2>Empresarial</h2>
-				<p><span>POPULAR</span></p>
-				<ul>
-					<li>&#10004; 20 users</li>
-					<li>&#10004; Unlimited access</li>
-					<li>&#10004; 3TB of space</li>
-					<li>&#10004; E-mail support</li>
-				</ul>          
-				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-				<hr />
-				<h3 class="ac">$15.99 / month</h3>
-				<hr />
-				<p class="ac">
-					<a class="btn btn-success btn-large" href="#">&#10004; Select plan</a>
-				</p>
-			</div>
-		</div>
-		<div class="span4">
-			<div class="well">
-				<h2>Activos</h2>
-				<ul>
-					<li>&#10004; Unlimited users</li>
-					<li>&#10004; Unlimited access</li>
-					<li>&#10004; 100TB of space</li>
-					<li>&#10004; Phone and e-mail support</li>
-				</ul>          
-				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-				<hr />
-				<h3 class="ac">$25.99 / month</h3>
-				<hr />
-				<p class="ac">
-					<a class="btn btn-success btn-large" href="#">Select plan &raquo;</a>
-				</p>
-			</div>
-		</div>
-	</div>
-
-	<hr />
-
-	<div class="row">
-		<div class="span12">
-			<h1 class="lead">
-				<b>All plans comes with 90-day</b> money-back guarantee.
-			</h1>
-		</div>
-	</div>
-
 	</div>
 
 	<footer class="row">
