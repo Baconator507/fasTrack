@@ -83,7 +83,7 @@
 
 		<div class="span4">
 			<div class="well">
-				<h2>Fas<strong>Track</strong> Personal</h2>
+				<h2> Personal</h2>
 				<ul>
 					<li>&#10004; 5 users</li>
 					<li>&#10004; 1TB of space</li>
@@ -101,7 +101,7 @@
 		</div>
 		<div class="span4 most-popular">
 			<div class="well">
-				<h2>Fas<strong>Track</strong> Empresarial</h2>
+				<h2>Empresarial</h2>
 				<p><span>POPULAR</span></p>
 				<ul>
 					<li>&#10004; 20 users</li>
@@ -120,7 +120,7 @@
 		</div>
 		<div class="span4">
 			<div class="well">
-				<h2>Fas<strong>Track</strong> Activos</h2>
+				<h2>Activos</h2>
 				<ul>
 					<li>&#10004; Unlimited users</li>
 					<li>&#10004; Unlimited access</li>
