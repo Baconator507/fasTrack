@@ -3,6 +3,7 @@
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html class="not-ie" lang="en"> <!--<![endif]-->
+<h
 <head>
 	<meta charset="utf-8">
 	<title>FasTrack | Planes</title>
@@ -27,9 +28,33 @@
 	<![endif]-->
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="js/twitter.js" type="text/javascript"></script>
 	<script>!window.jQuery && document.write(unescape('%3Cscript src="js/jquery-1.7.2.min.js"%3E%3C/script%3E'))</script>
+        <script type="text/javascript">
+            getTwitters('tweet', { 
+                id: 'itrack_pty', 
+                count: 3, 
+                enableLinks: true, 
+                ignoreReplies: true, 
+                clearContents: true,
+                template: '"%text%" <a href="http://twitter.com/%user_screen_name%/statuses/%id_str%/">%time%</a>'
+            });
+        </script>
+<script>!window.jQuery && document.write(unescape('%3Cscript src="js/jquery-1.7.2.min.js"%3E%3C/script%3E'))</script>
+	<style>
+		.services li{
+			padding:5px;
+		font-size:90%;
+		}
+		span.extra-info{
+			font-size:60%;
+		}
+
+	</style>
 </head>
 <body>
+
 
 	<!-- Header
 	================================================== -->
@@ -46,10 +71,10 @@
 						<span class="icon-bar"></span>
 					</a>
 					<a class="brand" href="index.html">
-						<b>Your</b>Site
+						Fas<b>Track</b>
 					</a>
 					<div class="nav-collapse fr">
-								<ul class="nav">
+							<ul class="nav">
 							<li><a href="index.html" title="">Home</a></li>
 						<li><a href="explore.html" title="">¿Qué es Fas<strong>Track</strong>?</a></li>
 						<li><a href="about.html" title="">Sobre Nosotros</a></li>
@@ -63,14 +88,15 @@
 			</div><!-- end .navbar-inner -->
 		</div><!-- end .navbar -->
 
+	</div><!-- end .navbar -->
+
 	<!-- Content
 	================================================== -->
 	<div id="content" class="container">
 	<div class="hero-unit">
 		<div class="container">
-			<h1 class="ac">Plans and pricing!</h1><br />
+			<h1 class="ac">Nuestros Planes</h1><br />
 			<p class="ac">
-				This is a template for a simple pricing table.
 				Take a look at our pricing options.
 			</p>
 		</div>
@@ -83,18 +109,13 @@
 			<div class="well">
 				<h2> Personal</h2>
 				<ul>
-					<li>&#10004; 5 users</li>
-					<li>&#10004; 1TB of space</li>
-					<li>&#10006; Limited access</li>
-					<li>&#10006; No phone support</li>
+					<li>&#10004; Auto Particular</li>
+					<li>&#10004; Personas <span class="extra-info">(Protegiendo a seres queridos)</span>  </li>
 				</ul>
 				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
 				<hr />
-				<h3 class="ac">$5.99 / month</h3>
+				<h3 class="ac">$5.99 / mensual</h3>
 				<hr />
-				<p class="ac">
-					<a class="btn btn-success btn-large" href="#">Select plan &raquo;</a>
-				</p>
 			</div>
 		</div>
 		<div class="span4 most-popular">
@@ -102,36 +123,29 @@
 				<h2>Empresarial</h2>
 				<p><span>POPULAR</span></p>
 				<ul>
-					<li>&#10004; 20 users</li>
-					<li>&#10004; Unlimited access</li>
-					<li>&#10004; 3TB of space</li>
-					<li>&#10004; E-mail support</li>
+					<li>&#10004; Flota de Autos</li>
+					<li>&#10004; Flota de Buses</li>
+					<li>&#10004; Flota de Camiones</li>
+					<li>&#10004; Flota de Motos</li>
+					<li>&#10004; Flota de Marina</li>
+					<li>&#10004; Flota de Aéreas</li>
 				</ul>          
 				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
 				<hr />
-				<h3 class="ac">$15.99 / month</h3>
+				<h3 class="ac">$15.99 / mensual</h3>
 				<hr />
-				<p class="ac">
-					<a class="btn btn-success btn-large" href="#">&#10004; Select plan</a>
-				</p>
 			</div>
 		</div>
 		<div class="span4">
 			<div class="well">
 				<h2>Activos</h2>
 				<ul>
-					<li>&#10004; Unlimited users</li>
-					<li>&#10004; Unlimited access</li>
-					<li>&#10004; 100TB of space</li>
-					<li>&#10004; Phone and e-mail support</li>
+					<li>&#10004; Unidadtes Electricas<span class="extra-info">(Plantas Electricas)</span> </li>
 				</ul>          
 				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
 				<hr />
-				<h3 class="ac">$25.99 / month</h3>
+				<h3 class="ac">$25.99 / mensual</h3>
 				<hr />
-				<p class="ac">
-					<a class="btn btn-success btn-large" href="#">Select plan &raquo;</a>
-				</p>
 			</div>
 		</div>
 	</div>
@@ -141,7 +155,19 @@
 	<div class="row">
 		<div class="span12">
 			<h1 class="lead">
-				<b>All plans comes with 90-day</b> money-back guarantee.
+				<b>Todos los planes</b> incluyen los seguientes servicios.
+				<ol class="services">
+					<li>Grabaci&oacute;n de recorrido de los veh&iacute;culos para su posterior reproducci&oacute;n</li>
+					<li>Presentaci&oacute;n en pantalla de coordenadas de localizaci&oacute;n Provee informaci&oacute;n espec&iacute;fica, como nombre de la calle, velocidad del veh&iacute;culo, su rumbo etc.</li>
+					<li>Programaci&oacute;n de como se quiere la informaci&oacute;n (color, tama&ntilde;o, figura, texto)</li>
+					<li>Programaci&oacute;n de botones de emergencia dentro de los veh&iacute;culos que generan alarmas especificas.</li>
+					<li>Programaci&oacute;n de alarmas las cuales deben ser activadas mediante par&aacute;metros de entradas o salidas a zonas geogr&aacute;ficas, exceso de velocidad, cambio de curso, etc.</li>
+					<li>Los avisos de alarmas pueden ser desplegados en pantalla, activar avisos telef&oacute;nicos con voz o env&iacute;o de mensajes a buscapersonas.</li>
+					<li>Definici&oacute;n de puntos de inter&eacute;s espec&iacute;ficos en el mapa digitalizado</li>
+					<li>Monitoreo remoto de los veh&iacute;culos v&iacute;a Internet, facilidades especiales, o cable data (requiere compra de software en versiones Lite o MX).</li>
+					<li>Sistema de seguridad con acceso restringido.</li>
+
+				</ol>
 			</h1>
 		</div>
 	</div>
@@ -152,37 +178,35 @@
 		<div class="container">
 			<div class="row">
 				<div class="span2">
-					<h3>Quick links</h3>
+					<h3>Enlaces</h3>
 					<ul>
-						<li><a href="#" title="">Home</a></li>
-						<li><a href="#" title="">Our work</a></li>
-						<li><a href="#" title="">About us</a></li>
+						<li><a href="index.html" title="">Home</a></li>
+						<li><a href="explore.html" title="">¿Qué es Fas<strong>Track</strong>?</a></li>
+						<li><a href="about.html" title="">Sobre Nosotros</a></li>
+						<li><a href="http://fastrack.rastrac.net/rtisa/login_pages/login.aspx" title="">Login Manning</a></li>
 					</ul>
 				</div>
 				<div class="span2">
 					<br /><br />
 					<ul>
-						<li><a href="#" title="">Pricing</a></li>
-						<li><a href="#" title="">Explore</a></li>
-						<li><a href="#" title="">Contact</a></li>
+						<li><a href="work.html" title="">Servicios</a></li>
+						<li><a href="plans.html" title="">Planes</a></li>
+						<li><a href="contact.html" title="">Contáctenos</a></li>
+						<li><a href="http://fastrack.positionlogic.com/Login.aspx" title="">Login PositionLogic</a></li>
+						
 					</ul>
 				</div>
 				<div class="span4 social-networks">
-					<h3>Stay in touch</h3>
-					<p>Stay in touch on social networks</p>
+					<h3>Redes Sociales</h3>
+					<p>Entérate de lo ultimo...</p>
 					<a href="#" title="Follow us on Facebook" class="icon-facebook"></a>
-					<a href="#" title="Follow us on Twitter" class="icon-twitter"></a>
-					<a href="#" title="Follow us on Google Plus" class="icon-google-plus"></a>
-					<a href="#" title="Follow us on Google Plus" class="icon-github"></a>
-					<a href="#" title="Follow us on Google Plus" class="icon-pinterest"></a>
+					<a href="https://twitter.com/FasTrack_pty" title="Siguenos en Twitter" class="icon-twitter"></a>
+					<a href="#" title="Siguenos en Google Plus" class="icon-google-plus"></a>
 				</div>
 				<div class="span4">
-					<h3>Newsletter</h3>
-					<p>Subscribe to our monthly newsletter and be the first to know about our news and special deals!</p>
-					<form>
-						<input type="text" placeholder="Enter your E-mail" />
-						<input type="submit" class="btn" value="Ok" />
-					</form>
+					<h3>Twitter</h3>
+					<div id="tweet"></div>
+				
 				</div>
 			</div> <!-- /row -->		
 		</div> <!-- /container -->
@@ -191,15 +215,15 @@
 		<div class="container">
 			<div class="row">
 				<div class="span4">
-					&copy; 2010—2012 Your company
+					&copy; 2012 Fas<strong>Track</strong> Satelital
 				</div>
 				<div class="span4">
 					<i class="icon-phone"></i> &nbsp; 
-					00123 320 000 123 456
+					+507 270-3133
 				</div>
 				<div class="span4">
 					<i class="icon-envelope"></i> &nbsp; 
-					hello@yourcomapny.com
+					contactenos@fastrack.com.pa
 				</div>
 			</div> <!-- end .row -->		
 		</div> <!-- end .container -->		
