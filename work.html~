@@ -136,10 +136,10 @@
 	<div class="hero-unit">
 		<div class="ac">
 			<h1>Nuestros Servicios</h1><br />
-			
+			<p>FasTrack</p>
 		</div>
 	</div>
-<hr />
+
 	<div id="portfolio">
 
 		<!-- portfolio filter 	
