@@ -27,6 +27,18 @@
 	<![endif]-->
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="js/twitter.js" type="text/javascript"></script>
+	<script>!window.jQuery && document.write(unescape('%3Cscript src="js/jquery-1.7.2.min.js"%3E%3C/script%3E'))</script>
+        <script type="text/javascript">
+            getTwitters('tweet', { 
+                id: 'FastrackPanama', 
+                count: 3, 
+                enableLinks: true, 
+                ignoreReplies: true, 
+                clearContents: true,
+                template: '"%text%" <a href="http://twitter.com/%user_screen_name%/statuses/%id_str%/">%time%</a>'
+            });
+        </script>
 	<script>!window.jQuery && document.write(unescape('%3Cscript src="js/jquery-1.7.2.min.js"%3E%3C/script%3E'))</script>
 </head>
 <body>
@@ -46,11 +58,11 @@
 						<span class="icon-bar"></span>
 					</a>
 					<a class="brand" href="index.html">
-						<b>Your</b>Site
+						Fas<b>Track</b>
 					</a>
 					<div class="nav-collapse fr">
-								<ul class="nav">
-							<li class="active"><a href="index.html" title="">Home</a></li>
+							<ul class="nav">
+							<li><a href="index.html" title="">Home</a></li>
 						<li><a href="explore.html" title="">¿Qué es Fas<strong>Track</strong>?</a></li>
 						<li><a href="about.html" title="">Sobre Nosotros</a></li>
 						<li><a href="work.html" title="">Servicios</a></li>
@@ -62,6 +74,7 @@
 				</div><!-- end .container -->
 			</div><!-- end .navbar-inner -->
 		</div><!-- end .navbar -->
+	</div><!-- end .navbar -->
 
 	<!-- Content
 	================================================== -->
@@ -74,15 +87,19 @@
 		<div class="row">
 			<p class="span4 ac">
 				<br />
-				<a href="mailto:admin@fastrack.com.pa" class="btn btn-large btn-primary"><b>@ Envianos un email</b></a><br /><br />
-				<b>Fastrack</b><br />Calle 50, Ciudad de Panama</br>Frente al Rey de Calle 50
+
+				<b>Fastrack</b><br /><br />Calle 50, Ciudad de Panam&aacute;</br>Frente al Rey de Calle 50
+<br />
+<br />
+<i class="icon-phone"></i> &nbsp; 
+					+507 270-3133 
+<br />
+<br />
+				<a href="mailto:admin@fastrack.com.pa" class="btn btn-large btn-primary"><b>@ Envienos un e-mail</b></a><br /><br />
 			</p>
 			<p class="span4">
-				We combine industry expertise with innovative technology to deliver critical information to leading decision makers in the financial, legal, tax and accounting, healthcare, science and media markets, powered by the world’s most trusted news organization.
-			</p>
-			<p class="span4">
-				We combine industry expertise with innovative technology to deliver critical information to leading decision makers in the financial, legal, tax and accounting, healthcare, science and media markets, powered by the world’s most trusted news organization.
-			</p>
+			<b>Fastrack</b> es un sistema de localizaci&oacute;n satelital que utiliza herramientas de posicionamiento global (GPS) y mapas digitalizados para una medida de nuevas soluciones tecnol&oacute;gicas y de informaci&oacute;n para fortalecer la supervisi&oacute;n, seguridad, y control de los recursos m&oacute;viles de una empresa.</p>
+			<p class="span4"><br /><br /><br /><br />Con fastrack usted podr&aacute; saber en todo momento en donde se encuentran sus recursos m&oacute;viles. Fastrack da seguimiento a cualquier tipo de veh&iacute;culo terrestre, a&eacute;reo, o mar&iacute;timo.</p>
 		</div>
 	</div>
 	</div>
@@ -91,37 +108,35 @@
 		<div class="container">
 			<div class="row">
 				<div class="span2">
-					<h3>Quick links</h3>
+					<h3>Enlaces</h3>
 					<ul>
-						<li><a href="#" title="">Home</a></li>
-						<li><a href="#" title="">Our work</a></li>
-						<li><a href="#" title="">About us</a></li>
+						<li><a href="index.html" title="">Home</a></li>
+						<li><a href="explore.html" title="">¿Qué es Fas<strong>Track</strong>?</a></li>
+						<li><a href="about.html" title="">Sobre Nosotros</a></li>
+						<li><a href="http://fastrack.rastrac.net/rtisa/login_pages/login.aspx" title="">Login Manning</a></li>
 					</ul>
 				</div>
 				<div class="span2">
 					<br /><br />
 					<ul>
-						<li><a href="#" title="">Pricing</a></li>
-						<li><a href="#" title="">Explore</a></li>
-						<li><a href="#" title="">Contact</a></li>
+						<li><a href="work.html" title="">Servicios</a></li>
+						<li><a href="plans.html" title="">Planes</a></li>
+						<li><a href="contact.html" title="">Contáctenos</a></li>
+						<li><a href="http://fastrack.positionlogic.com/Login.aspx" title="">Login PositionLogic</a></li>
+						
 					</ul>
 				</div>
 				<div class="span4 social-networks">
-					<h3>Stay in touch</h3>
-					<p>Stay in touch on social networks</p>
+					<h3>Redes Sociales</h3>
+					<p>Entérate de lo ultimo...</p>
 					<a href="#" title="Follow us on Facebook" class="icon-facebook"></a>
-					<a href="#" title="Follow us on Twitter" class="icon-twitter"></a>
-					<a href="#" title="Follow us on Google Plus" class="icon-google-plus"></a>
-					<a href="#" title="Follow us on Google Plus" class="icon-github"></a>
-					<a href="#" title="Follow us on Google Plus" class="icon-pinterest"></a>
+					<a href="https://twitter.com/FasTrack_pty" title="Siguenos en Twitter" class="icon-twitter"></a>
+					<a href="#" title="Siguenos en Google Plus" class="icon-google-plus"></a>
 				</div>
 				<div class="span4">
-					<h3>Newsletter</h3>
-					<p>Subscribe to our monthly newsletter and be the first to know about our news and special deals!</p>
-					<form>
-						<input type="text" placeholder="Enter your E-mail" />
-						<input type="submit" class="btn" value="Ok" />
-					</form>
+					<h3>Twitter</h3>
+					<div id="tweet"></div>
+				
 				</div>
 			</div> <!-- /row -->		
 		</div> <!-- /container -->
@@ -130,15 +145,15 @@
 		<div class="container">
 			<div class="row">
 				<div class="span4">
-					&copy; 2010—2012 Your company
+					&copy; 2012 Fas<strong>Track</strong> Satelital
 				</div>
 				<div class="span4">
 					<i class="icon-phone"></i> &nbsp; 
-					00123 320 000 123 456
+					+507 270-3133
 				</div>
 				<div class="span4">
 					<i class="icon-envelope"></i> &nbsp; 
-					hello@yourcomapny.com
+					contactenos@fastrack.com.pa
 				</div>
 			</div> <!-- end .row -->		
 		</div> <!-- end .container -->		
@@ -146,7 +161,6 @@
 
 
 	</footer>
-
 	<!-- Javascript
 	================================================== -->
 	<!-- Placed at the end of the document so the pages load faster -->
