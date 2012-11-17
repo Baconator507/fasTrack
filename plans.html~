@@ -77,7 +77,6 @@
 							<ul class="nav">
 							<li><a href="index.html" title="">Home</a></li>
 						<li><a href="explore.html" title="">¿Qué es Fas<strong>Track</strong>?</a></li>
-						<li><a href="about.html" title="">Sobre Nosotros</a></li>
 						<li><a href="work.html" title="">Servicios</a></li>
 						<li class="active"><a href="plans.html" title="">Planes</a></li>
 						<li><a href="contact.html" title="">Contáctenos</a></li>
@@ -153,17 +152,17 @@
 	<div class="row">
 		<div class="span12">
 			<h1 class="lead">
-				<b>Todos los planes</b> incluyen los seguientes servicios.
-				<ol class="services">
-					<li>Grabaci&oacute;n de recorrido de los veh&iacute;culos para su posterior reproducci&oacute;n</li>
-					<li>Presentaci&oacute;n en pantalla de coordenadas de localizaci&oacute;n Provee informaci&oacute;n espec&iacute;fica, como nombre de la calle, velocidad del veh&iacute;culo, su rumbo etc.</li>
-					<li>Programaci&oacute;n de como se quiere la informaci&oacute;n (color, tama&ntilde;o, figura, texto)</li>
-					<li>Programaci&oacute;n de botones de emergencia dentro de los veh&iacute;culos que generan alarmas especificas.</li>
-					<li>Programaci&oacute;n de alarmas las cuales deben ser activadas mediante par&aacute;metros de entradas o salidas a zonas geogr&aacute;ficas, exceso de velocidad, cambio de curso, etc.</li>
-					<li>Los avisos de alarmas pueden ser desplegados en pantalla, activar avisos telef&oacute;nicos con voz o env&iacute;o de mensajes a buscapersonas.</li>
-					<li>Definici&oacute;n de puntos de inter&eacute;s espec&iacute;ficos en el mapa digitalizado</li>
-					<li>Monitoreo remoto de los veh&iacute;culos v&iacute;a Internet, facilidades especiales, o cable data (requiere compra de software en versiones Lite o MX).</li>
-					<li>Sistema de seguridad con acceso restringido.</li>
+				<b>Todos los planes</b> incluyen los siguientes servicios:
+				<ol class="services" style="list-style-type:none;">
+					<li>&#10004;  Grabaci&oacute;n de recorrido de los veh&iacute;culos para su posterior reproducci&oacute;n</li>
+					<li>&#10004;  Presentaci&oacute;n en pantalla de coordenadas de localizaci&oacute;n Provee informaci&oacute;n espec&iacute;fica, como nombre de la calle, velocidad del veh&iacute;culo, su rumbo etc.</li>
+					<li>&#10004;  Programaci&oacute;n de como se quiere la informaci&oacute;n (color, tama&ntilde;o, figura, texto)</li>
+					<li>&#10004;  Programaci&oacute;n de botones de emergencia dentro de los veh&iacute;culos que generan alarmas especificas.</li>
+					<li>&#10004;  Programaci&oacute;n de alarmas las cuales deben ser activadas mediante par&aacute;metros de entradas o salidas a zonas geogr&aacute;ficas, exceso de velocidad, cambio de curso, etc.</li>
+					<li>&#10004;  Los avisos de alarmas pueden ser desplegados en pantalla, activar avisos telef&oacute;nicos con voz o env&iacute;o de mensajes a buscapersonas.</li>
+					<li>&#10004;  Definici&oacute;n de puntos de inter&eacute;s espec&iacute;ficos en el mapa digitalizado</li>
+					<li>&#10004;  Monitoreo remoto de los veh&iacute;culos v&iacute;a Internet, facilidades especiales, o cable data (requiere compra de software en versiones Lite o MX).</li>
+					<li>&#10004;  Sistema de seguridad con acceso restringido.</li>
 
 				</ol>
 			</h1>

@@ -64,7 +64,6 @@
 							<ul class="nav">
 							<li><a href="index.html" title="">Home</a></li>
 						<li><a href="explore.html" title="">¿Qué es Fas<strong>Track</strong>?</a></li>
-						<li><a href="about.html" title="">Sobre Nosotros</a></li>
 						<li><a href="work.html" title="">Servicios</a></li>
 						<li><a href="plans.html" title="">Planes</a></li>
 						<li class="active"><a href="contact.html" title="">Contáctenos</a></li>
@@ -88,7 +87,7 @@
 			<p class="span4 ac">
 				<br />
 
-				<b>Fastrack</b><br /><br />Calle 50, Ciudad de Panam&aacute;</br>Frente al Rey de Calle 50
+				Fas<strong>Track</strong><br /><br />Calle 50, Ciudad de Panam&aacute;</br>Frente al Rey de Calle 50
 <br />
 <br />
 <i class="icon-phone"></i> &nbsp; 
@@ -98,8 +97,8 @@
 				<a href="mailto:admin@fastrack.com.pa" class="btn btn-large btn-primary"><b>@ Envienos un e-mail</b></a><br /><br />
 			</p>
 			<p class="span4">
-			<b>Fastrack</b> es un sistema de localizaci&oacute;n satelital que utiliza herramientas de posicionamiento global (GPS) y mapas digitalizados para una medida de nuevas soluciones tecnol&oacute;gicas y de informaci&oacute;n para fortalecer la supervisi&oacute;n, seguridad, y control de los recursos m&oacute;viles de una empresa.</p>
-			<p class="span4"><br /><br /><br /><br />Con fastrack usted podr&aacute; saber en todo momento en donde se encuentran sus recursos m&oacute;viles. Fastrack da seguimiento a cualquier tipo de veh&iacute;culo terrestre, a&eacute;reo, o mar&iacute;timo.</p>
+			Fas<strong>Track</strong> es un sistema de localizaci&oacute;n satelital que utiliza herramientas de posicionamiento global (GPS) y mapas digitalizados para una medida de nuevas soluciones tecnol&oacute;gicas y de informaci&oacute;n para fortalecer la supervisi&oacute;n, seguridad, y control de los recursos m&oacute;viles de una empresa.</p>
+			<p class="span4"><br /><br />Con fastrack usted podr&aacute; saber en todo momento en donde se encuentran sus recursos m&oacute;viles. Fastrack da seguimiento a cualquier tipo de veh&iacute;culo terrestre, a&eacute;reo, o mar&iacute;timo.</p>
 		</div>
 	</div>
 	</div>
