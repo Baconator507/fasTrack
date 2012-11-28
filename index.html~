@@ -40,62 +40,6 @@
                 template: '"%text%" <a href="http://twitter.com/%user_screen_name%/statuses/%id_str%/">%time%</a>'
             });
         </script>
-	<style>
-		.center{
-			text-align:center;
-		}
-		.service{
-			padding-left: 140px;
-			background: transparent url('./img/gps-icon.png') no-repeat left top;
-			margin: 8px 0 20px;
-		}
-		.service p{
-			font-size:80%;
-		}
-		.admin{
-			padding-left: 140px;
-			background: transparent url('./img/admin-icon.png') no-repeat left top;
-			margin: 8px 0 20px;
-		}
-		.admin p{
-			font-size:80%;
-		}
-		.map{
-			padding-left: 140px;
-			background: transparent url('./img/map-icon.png') no-repeat left top;
-			margin: 8px 0 20px;
-		}
-		.map p{
-			font-size:80%;
-		}
-		.security{
-			padding-left: 140px;
-			padding-bottom:48px;
-			background: transparent url('./img/security-icon.png') no-repeat left top;
-			margin: 8px 0 20px;
-		}
-		.security p{
-			font-size:80%;
-		}
-		.phone{
-			padding-left: 140px;
-			padding-bottom:20px;
-			background: transparent url('./img/phone-icon.png') no-repeat left top;
-			margin: 8px 0 20px;
-		}
-		.phone p{
-			font-size:80%;
-		}
-		.diversity{
-			padding-left: 140px;
-			padding-bottom:20px;
-			background: transparent url('./img/diversity-icon.png') no-repeat left top;
-			margin: 8px 0 20px;
-		}
-		.diversity p{
-			font-size:80%;
-		}
-	</style>
 </head>
 <body>
 
@@ -148,13 +92,13 @@
 				<!-- Carousel items -->				
 				<div class="carousel-inner">
 					<div class="active item">
-						<img src="img/carousel/1.png"  height=300 widht=423 />
+						<img src="img/carousel/1.png" />
 					</div>
 					<div class="item">
-						<img src="img/carousel/2.jpg" height=300 widht=423 />
+						<img src="img/carousel/2.jpg" height=360 widht=600 />
 					</div>
 					<div class="item">
-						<img src="img/carousel/3.jpg" height=300 widht=423 />
+						<img src="img/carousel/3.jpg" height=360 widht=600 />
 					</div>
 				</div>
 				<!-- Carousel navigation -->
@@ -163,105 +107,8 @@
 			</div>
 		</div>
 	</div>
-	</div>
-
-
-	<div id="content" class="container">
-		<div class="hero-unit">
-		<div class="ac">
-			<h1>Nuestros Servicios</h1><br />
-			
-		</div>
-	</div>
-<hr />
-	<div id="portfolio">
-
-		<!-- portfolio filter 	
-		<ul id="portfolio-filter" class="nav nav-tabs">
-			<li><a href="#" class="filter" data-filter="*">Todos los Servicios</a></li>
-			<li><a href="#" class="filter" data-filter=".gpst">Servicio de Localización</a></li>
-			<li><a href="#" class="filter" data-filter=".admint">Administración Vehicular</a></li>
-			<li><a href="#" class="filter" data-filter=".securityt">Aplicaciones de Seguridad</a></li>
-			<li><a href="#" class="filter" data-filter=".diversityt">Diversidad en Nuestros Servicios</a></li>
-			<li><a href="#" class="filter" data-filter=".phonet">Localizaci&oacute;n de Smartphone</a></li>
-			<li><a href="#" class="filter" data-filter=".mapt">Gestión y control de Flotas</a></li>
-
-		</ul>
-			-->	
-		<!-- portfolio items -->		
-		<div class="row" id="portfolio-items">
-
-
-			<!-- portfolio item-->
-			<div class="span4 project" data-tags="gpst">
-
-					<h3 class="project-name center">Servicio de Localizacion</h3>
-				<div class=" service" href="">
-					<p>Servicio de Localizaci&oacute;n en tiempo real para la administraci&oacute;n de su flota vehicular, contando con dispositivos de &uacute;ltima generaci&oacute;n y alta tecnolog&iacute;a posicionando nuestra marca como l&iacute;der en el mercado paname&ntilde;o.
-					</p>
-				</div>
-			</div>
-			<!-- end portfolio item-->
-			<!-- portfolio item-->
-			<div class="span4 project" data-tags="admint">
-
-					<h3 class="project-name center">Administraci&oacute;n Vehicular</h3>
-				<div class="admin" href="">
-					<p>Control preventivo y programaci&oacute;n de mantenimientos de toda su flota, prevenci&oacute;n de riesgos laborales, informaci&oacute;n de sus colaboradores inmediata, recordatorios al correo electronico.
-					</p>
-				</div>
-			</div>
-			<!-- end portfolio item-->
-			<!-- portfolio item-->
-			<div class="span4 project " data-tags="securityt">
-
-					<h3 class="project-name center">Aplicaciones Seguridad</h3>
-				<div class="security">
-					<p>Par&aacute;metros de velocidad seg&uacute;n el &aacute;rea geogr&aacute;fica, disminuci&oacute;n de accidentes, monitoreo 24/7 desde su plataforma.
-					</p>
-				</div>
-			</div>
-			<!-- end portfolio item-->
-			<!-- portfolio item-->
-			<div class="span4 project " data-tags="diversityt">
-
-					<h3 class="project-name center">Diversidad de Servicios</h3>
-				<div class="diversity">
-					<p>Equipos AVL para administrar sus activos; Autos, Motos, Camiones, Contenedores, Yates, Helic&oacute;pteros, ultralivianos, Plantas el&eacute;ctricas, entre otros.
-					</p>
-				</div>
-			</div>
-			<!-- end portfolio item-->
-			<!-- portfolio item-->
-			<div class="span4 project " data-tags="phonet">
-
-					<h3 class="project-name center">Localizaci&oacute;n de Smartphone</h3>
-				<div class="phone">
-					<!-- name -->
-					<p>Servicio de localizaci&oacute;n para tel&eacute;fonos Blackberry, Android y Iphone. Localice los tel&eacute;fonos con GPS de sus colaboradores y aumente su productividad.
-					</p>
-				</div>
-			</div>
-			<!-- end portfolio item-->
-			<!-- portfolio item-->
-			<div class="span4 project " data-tags="mapt">
-					<h3 class="project-name center">Gesti&oacute;n y control de Flotas</h3>
-
-				<div class="map">
-					<p>El m&aacute;s avanzado y flexible sistema de gesti&oacute;n y control de flotas mediante la tecnolog&iacute;a GPS que permite integrar aplicaciones para el manejo efectivo de sus activos.
-					</p>
-				</div>
-			</div>
-			<!-- end portfolio item-->
-
-		</div>
-
-	</div>
-	</div>
-	<div id="content" class="container">
 
 	<div class="row">
-	<hr />
 		<div class="span8">
 			<h1 class="lead">
 				<b>Fas<strong>Track</strong></b> es un sistema de localización satelital que utiliza herramientas de posicionamiento global (GPS) y mapas digitalizados para una medida de nuevas soluciones tecnológicas y de información para fortalecer la supervisión, seguridad, y control de los recursos móviles de una empresa.
@@ -275,6 +122,34 @@
 		</div>
 	</div>
 
+	<hr />
+
+	<div class="row">
+		<div class="span4">
+			<h2><span class="grey">FasTrack</span> Personal</h2>
+				<ul style="list-style-type:none;">
+ 				<li>&#10004;  Personas <em style="font-size:0.8em;"> (Protegiendo a tus seres queridos)</em></li>
+				</ul>
+	 	</div>
+		<div class="span4">
+			<h2><span class="grey">FasTrack</span> Empresarial</h2>
+			 <ul style="list-style-type:none;"><li>&#10004;Flotas de Autos</li>
+				<li>&#10004;  Flotas de Buses </li>
+				<li>&#10004;  Flotas de Camiones </li>
+				<li>&#10004;  Flotas de Motos </li>
+				<li>&#10004;  Flotas Marinas</li>
+				<li>&#10004;  Flotas Aéreas </li>
+						</ul>
+
+		</div>
+		<div class="span4">
+			<h2><span class="grey">FasTrack</span> Activos</h2>
+			<ul style="list-style-type:none;"><li>&#10004;  Unidades Eléctricas <em style="font-size:0.8em;">(Plantas Eléctricas)</em></li>
+					<li>&#10004; Contenedores </li>
+					<li>&#10004; Otros </li>
+			</ul>
+		</div>
+	</div>
 	</div>
 
 	<footer class="row">
