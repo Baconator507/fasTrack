@@ -55,14 +55,12 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</a>
-					<a class="brand" href="index.html">
-						Fas<strong>Track</strong>
-					</a>
+					<img src ="img/logo.png"></img>
 					<div class="nav-collapse fr">
 								<ul class="nav">
 							<li><a href="index.html" title="">Home</a></li>
 						<li class="active"><a href="explore.html" title="">¿Qué es Fas<strong>Track</strong>?</a></li>
-						<li><a href="work.html" title="">Servicios</a></li>
+						<li><a href="work.html" title="">Login</a></li>
 						<li><a href="plans.html" title="">Planes</a></li>
 						<li><a href="contact.html" title="">Contáctenos</a></li>
 
@@ -92,7 +90,7 @@
 				<p>
 					Fas<strong>Track</strong> es un sistema de localización satelital que utiliza herramientas de posicionamiento global (GPS) y mapas digitalizados para una medida de nuevas soluciones tecnológicas y de información para fortalecer la supervisión, seguridad, y control de los recursos móviles de una empresa.</p>
 
-<p>Con Fas<strong>Track</strong>usted podrá saber en todo momento en donde se encuentran sus recursos móviles. Fastrack da seguimiento a cualquier tipo de vehículo terrestre, aéreo, o marítimo.</p>
+<p>Con Fas<strong>Track</strong> usted podrá saber en todo momento en donde se encuentran sus recursos móviles. Fastrack da seguimiento a cualquier tipo de vehículo terrestre, aéreo, o marítimo.</p>
 
 <p>El sistema de localización automatizada de vehículos (AVL) de Fas<strong>Track</strong>, trabaja recibiendo coordenadas del sistema satelital militar “GPS”, el cual ha sido habilitado para el uso comercial. Estas coordenadas recibidas son procesadas por un “receptor –modem” instalados en el vehículo y transmitidas a un centro de gestión para determinar la localización exacta del móvil.</p>
 
@@ -101,7 +99,7 @@
 			</div>
 			<div class="span4">
 				<p>
-					<img rel="tooltip" title="Some title" alt="" class="thumbnail fr" src="http://image.shutterstock.com/display_pic_with_logo/562921/99568811/stock-photo-mouse-connections-99568811.jpg" width="240" />
+					<img rel="tooltip" title="Some title" alt="" class="thumbnail fr" src="./img/map-icon.png" width="240" />
 				</p>
 			</div>
 		</div>
@@ -178,7 +176,7 @@
 				<div class="span2">
 					<br /><br />
 					<ul>
-						<li><a href="work.html" title="">Servicios</a></li>
+						<li><a href="work.html" title="">Login</a></li>
 						<li><a href="plans.html" title="">Planes</a></li>
 						<li><a href="contact.html" title="">Contáctenos</a></li>
 						<li><a href="http://fastrack.positionlogic.com/Login.aspx" title="">Login PositionLogic</a></li>

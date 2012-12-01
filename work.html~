@@ -1,10 +1,11 @@
+<!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html class="not-ie" lang="en"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-	<title>FasTrack | ¿Qué es FasTrack?</title>
+	<title>FasTrack | Localizador Satelital</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Page description">
 	<meta name="author" content="Your name">
@@ -27,6 +28,7 @@
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script src="js/twitter.js" type="text/javascript"></script>
+	<script>!window.jQuery && document.write(unescape('%3Cscript src="js/jquery-1.7.2.min.js"%3E%3C/script%3E'))</script>
         <script type="text/javascript">
             getTwitters('tweet', { 
                 id: 'FastrackPanama', 
@@ -37,7 +39,63 @@
                 template: '"%text%" <a href="http://twitter.com/%user_screen_name%/statuses/%id_str%/">%time%</a>'
             });
         </script>
-	<script>!window.jQuery && document.write(unescape('%3Cscript src="js/jquery-1.7.2.min.js"%3E%3C/script%3E'))</script>
+<script>!window.jQuery && document.write(unescape('%3Cscript src="js/jquery-1.7.2.min.js"%3E%3C/script%3E'))</script>
+	<style>
+		.center{
+			text-align:center;
+		}
+		.service{
+			padding-left: 140px;
+			background: transparent url('./img/gps-icon.png') no-repeat left top;
+			margin: 8px 0 20px;
+		}
+		.service p{
+			font-size:80%;
+		}
+		.admin{
+			padding-left: 140px;
+			background: transparent url('./img/admin-icon.png') no-repeat left top;
+			margin: 8px 0 20px;
+		}
+		.admin p{
+			font-size:80%;
+		}
+		.map{
+			padding-left: 140px;
+			background: transparent url('./img/map-icon.png') no-repeat left top;
+			margin: 8px 0 20px;
+		}
+		.map p{
+			font-size:80%;
+		}
+		.security{
+			padding-left: 140px;
+			padding-bottom:48px;
+			background: transparent url('./img/security-icon.png') no-repeat left top;
+			margin: 8px 0 20px;
+		}
+		.security p{
+			font-size:80%;
+		}
+		.phone{
+			padding-left: 140px;
+			padding-bottom:20px;
+			background: transparent url('./img/phone-icon.png') no-repeat left top;
+			margin: 8px 0 20px;
+		}
+		.phone p{
+			font-size:80%;
+		}
+		.diversity{
+			padding-left: 140px;
+			padding-bottom:20px;
+			background: transparent url('./img/diversity-icon.png') no-repeat left top;
+			margin: 8px 0 20px;
+		}
+		.diversity p{
+			font-size:80%;
+		}
+	</style>
 </head>
 <body>
 
@@ -55,12 +113,14 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</a>
-					<img src ="img/logo.png"></img>
+					<a class="brand" href="index.html">
+						Fas<strong>Track</strong>
+					</a>
 					<div class="nav-collapse fr">
-								<ul class="nav">
+							<ul class="nav">
 							<li><a href="index.html" title="">Home</a></li>
-						<li class="active"><a href="explore.html" title="">¿Qué es Fas<strong>Track</strong>?</a></li>
-						<li><a href="work.html" title="">Login</a></li>
+						<li><a href="explore.html" title="">¿Qué es Fas<strong>Track</strong>?</a></li>
+						<li class="active"><a href="work.html" title="">Login</a></li>
 						<li><a href="plans.html" title="">Planes</a></li>
 						<li><a href="contact.html" title="">Contáctenos</a></li>
 
@@ -74,92 +134,13 @@
 	================================================== -->
 	<div id="content" class="container">
 	<div class="hero-unit">
-		<div class="ac">
-			<h1>¿Qué es Fas<strong>Track</strong>?</h1><br />
-		
-		</div>
+		<form action="http://clients.dev507.com/fastrack/login.php">
+			<h4 id="h4">Username:</h4>
+			<input name="username"></br>
+			</br>
+			<input value="Login" type="submit"></form>
 	</div>
-
-	
-
-		<hr />
-
-		<div class="row">
-			<div class="span8">
-				
-				<p>
-					Fas<strong>Track</strong> es un sistema de localización satelital que utiliza herramientas de posicionamiento global (GPS) y mapas digitalizados para una medida de nuevas soluciones tecnológicas y de información para fortalecer la supervisión, seguridad, y control de los recursos móviles de una empresa.</p>
-
-<p>Con Fas<strong>Track</strong> usted podrá saber en todo momento en donde se encuentran sus recursos móviles. Fastrack da seguimiento a cualquier tipo de vehículo terrestre, aéreo, o marítimo.</p>
-
-<p>El sistema de localización automatizada de vehículos (AVL) de Fas<strong>Track</strong>, trabaja recibiendo coordenadas del sistema satelital militar “GPS”, el cual ha sido habilitado para el uso comercial. Estas coordenadas recibidas son procesadas por un “receptor –modem” instalados en el vehículo y transmitidas a un centro de gestión para determinar la localización exacta del móvil.</p>
-
-
-
-			</div>
-			<div class="span4">
-				<p>
-					<img rel="tooltip" title="Some title" alt="" class="thumbnail fr" src="./img/map-icon.png" width="240" />
-				</p>
-			</div>
-		</div>
-
-		<hr />
-
-		<div class="row">
-
-			<div class="span3">
-				<p>
-					<img rel="tooltip" title="Some title" alt="" class="thumbnail" src="http://image.shutterstock.com/display_pic_with_logo/183487/183487,1306438770,2/stock-vector-social-network-background-with-media-icons-78037456.jpg" width="200" />
-				</p>
-			</div>      	
-			<div class="span9">
-				<p>El seguimiento de la información es dada de manera continua e inalámbrica a través de la red de repetidoras estableciendo cobertura a lo largo y ancho del país. El entorno tecnológico y de comunicaciones permite la posibilidad de la continua supervisión de los vehículos y su localización a través de consultas y/o la activación de alarmas al detectar algún evento irregular.</p>
-
-<p>La información recibida en nuestro centro de gestión es procesada por un sofisticado “software” que permite al usuario el despliegue de los móviles en una pantalla de computadora sobre un mapa nacional digitalizado, efectivamente diseñado para satisfacer una gran variedad de requerimientos. Los usuarios podrán revisar, según sus necesidades, todo tipo de información acerca de sus vehículos a través de Internet, o nuestro centro de gestión en Kadair que opera 24 horas al día.
-				</p>
-			</div>
-
-		</div>
-
-		<hr />
-
-		<div class="row">
-			<div class="span8">
-				<h3>Acerca de Nosotros</h3>
-				<p>
-					Fas<strong>Track</strong>, S.A. es una empresa líder en tecnología de Sistemas de Localización Satelital en Panamá, con más de 7 años atendiendo las necesidades de nuestros clientes con un alto grado de responsabilidad, garantía de servicio y productos de alta calidad.
-				</p>
-<h4>Misión</h4>
-				<p>
-					Servir a nuestros clientes con productos y servicios utilizando herramientas de posicionamiento global y tecnología GSM para localización de sus recursos móviles, que faciliten la operación de sus empresas y las hagan más productivas.  Teniendo como meta la total satisfacción con los servicios que prestamos, la garantía que ofrecemos y la atención de nuestro personal que se desempeña con el mayor profesionalismo y sentido de responsabilidad.
-				</p>
-<h4>Visión</h4>
-				<p>
-					Ser una compañía líder en el mercado de localización satelital, integrando tecnología de punta para brindar a nuestros clientes soluciones integradas para satisfacer sus necesidades con productos y servicios de alta calidad, con el fin de adquirir la total satisfacción del cliente.
-				</p>
-			</div>
-			<div class="span4">
-				<p>
-					<img alt="" rel="tooltip" title="Some title" class="thumbnail fr" src="http://image.shutterstock.com/display_pic_with_logo/368671/368671,1296679547,7/stock-photo-background-image-of-d-70345660.jpg" width="240" />
-				</p>
-			</div>
-		</div>
-
-		<hr />
-
-		<div class="well ac">
-			<h3>
-				Lee más!
-				<a href="plans.html" title="Try it for yourself.">
-					Nuestros Planes
-				</a>&rarr;
-			</h3>
-		</div>
 	</div>
-
-	</div>
-
 
 	<footer class="row">
 		<div class="container">
