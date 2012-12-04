@@ -57,9 +57,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</a>
-					<a class="brand" href="index.html">
-						Fas<strong>Track</strong>
-					</a>
+					<img src ="img/logo.png"></img>
 					<div class="nav-collapse fr">
 							<ul class="nav">
 							<li><a href="index.html" title="">Home</a></li>
@@ -80,7 +78,7 @@
 	<div id="content" class="container">
 </div>
 
-<iframe width="100%" height="420" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;t=m&amp;ll=8.992996,-79.50354&amp;spn=0.003709,0.00456&amp;z=17&amp;output=embed"></iframe>
+<iframe width="100%" height="420" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=8.993404,-79.50354&amp;num=1&amp;ie=UTF8&amp;t=m&amp;z=14&amp;ll=8.993346,-79.503577&amp;output=embed"></iframe>
 
 	<div class="container hero-unit">
 		<div class="row">
@@ -96,9 +94,8 @@
 <br />
 				<a href="mailto:admin@fastrack.com.pa" class="btn btn-large btn-primary"><b>@ Envienos un e-mail</b></a><br /><br />
 			</p>
-			<p class="span4">
-			Fas<strong>Track</strong> es un sistema de localizaci&oacute;n satelital que utiliza herramientas de posicionamiento global (GPS) y mapas digitalizados para una medida de nuevas soluciones tecnol&oacute;gicas y de informaci&oacute;n para fortalecer la supervisi&oacute;n, seguridad, y control de los recursos m&oacute;viles de una empresa.</p>
-			<p class="span4"><br /><br />Con Fas<strong>Track</strong> usted podr&aacute; saber en todo momento en donde se encuentran sus recursos m&oacute;viles. Fas<strong>Track</strong> da seguimiento a cualquier tipo de veh&iacute;culo terrestre, a&eacute;reo, o mar&iacute;timo.</p>
+			
+			<p class="span4"><br /><br />Fas<strong>Track</strong> </br>"Más Kilómetros de Eficiencia”  </p>
 		</div>
 	</div>
 	</div>
