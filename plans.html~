@@ -6,7 +6,7 @@
 <h
 <head>
 	<meta charset="utf-8">
-	<title>FasTrack | Planes</title>
+	<title>fasTrack | Planes</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Page description">
 	<meta name="author" content="Dev507">
@@ -74,7 +74,7 @@
 					<div class="nav-collapse fr">
 							<ul class="nav">
 							<li><a href="index.html" title="">Home</a></li>
-						<li><a href="explore.html" title="">¿Qué es Fas<strong>Track</strong>?</a></li>
+						<li><a href="explore.html" title="">¿Qué es fas<strong>Track</strong>?</a></li>
 						<li><a href="work.html" title="">Login</a></li>
 						<li class="active"><a href="plans.html" title="">Planes</a></li>
 						<li><a href="contact.html" title="">Contáctenos</a></li>
@@ -118,10 +118,34 @@
 				<hr />
 			</div>
 		</div>
+
+		<div class="span4">
+			<div class="well">
+				<h2>Gold</h2>
+								<ul>
+					<li>&#10004;  4 Claves Multiusuarios  </li>
+					<li>&#10004;  Vehículo encendido envía reporte cada 3 min <span class="extra-info">(y Apagado cada hora)</span>  </li>
+					<li>&#10004;   25 Puntos de Interés</li>
+					<li>&#10004;   25 Geocercas </li>
+					<li>&#10004;   Garantía del Equipo  <span class="extra-info">(18 meses)</span> </li>
+					<li>&#10004;   Reporte de Actividad Actual </li>
+					<li>&#10004;   Reporte de uso del Vehículo  </li>
+					<li>&#10004;   Reporte de uso no Autorizado  </li>
+					<li>&#10004;   Reporte de Velocidad Excesiva  </li>
+					<li>&#10004;   Reporte Detallado de Actividad  </li>
+					<li>&#10004;   Reporte de Mantenimiento Programado del Vehículo  </li>
+					<li>&#10004;   Reporte de Historial de Mantenimiento del Vehículo  </li>
+				</ul>
+
+				<hr />
+				<h3 class="ac">$24.99 / mensual</h3>
+				<hr />
+			</div>
+		</div>
 		<div class="span4 most-popular">
 			<div class="well">
 				<h2>Platinum</h2>
-				<p><span>POPULAR</span></p>
+				<p><span>RECOMENDADO</span></p>
 				<ul>
 					<li>&#10004;  6 o más Claves Multiusuarios </li>
 					<li>&#10004;  Vehículo encendido envía reporte cada 1 min <span class="extra-info">(y Apagado cada hora)</span>  </li>
@@ -148,29 +172,6 @@
 				<hr />
 			</div>
 		</div>
-		<div class="span4">
-			<div class="well">
-				<h2>Gold</h2>
-								<ul>
-					<li>&#10004;  4 Claves Multiusuarios  </li>
-					<li>&#10004;  Vehículo encendido envía reporte cada 3 min <span class="extra-info">(y Apagado cada hora)</span>  </li>
-					<li>&#10004;   25 Puntos de Interés</li>
-					<li>&#10004;   25 Geocercas </li>
-					<li>&#10004;   Garantía del Equipo  <span class="extra-info">(18 meses)</span> </li>
-					<li>&#10004;   Reporte de Actividad Actual </li>
-					<li>&#10004;   Reporte de uso del Vehículo  </li>
-					<li>&#10004;   Reporte de uso no Autorizado  </li>
-					<li>&#10004;   Reporte de Velocidad Excesiva  </li>
-					<li>&#10004;   Reporte Detallado de Actividad  </li>
-					<li>&#10004;   Reporte de Mantenimiento Programado del Vehículo  </li>
-					<li>&#10004;   Reporte de Historial de Mantenimiento del Vehículo  </li>
-				</ul>
-
-				<hr />
-				<h3 class="ac">$24.99 / mensual</h3>
-				<hr />
-			</div>
-		</div>
 	</div>
 
 	<hr />
@@ -180,15 +181,18 @@
 			<h1 class="lead">
 				<b>Todos los planes</b> incluyen los siguientes servicios:
 				<ol class="services" style="list-style-type:none;">
+		<div class="span6">
 					<li>&#10004;  Mapa lineal, Google (en vivo),Relieve, H&iacute;brido.</li>
 					<li>&#10004;  Acceso vía internet </li>
 					<li>&#10004;  Programación de Parámetro de Velocidad</li>
-					<li>&#10004;  Historia de vehículos y
-Operadores</li>
+					<li>&#10004;  Historia de vehículos y Operadores</li>
+		</div>
+		<div class="span5">
 					<li>&#10004;  Reporte de Horas Trabajadas</li>
 					<li>&#10004;  Reporte de Kilometraje</li>
 					<li>&#10004;  Reporte Detallado de Actividad</li>
 					<li>&#10004;  Reporte de Usuarios</li>
+		</div>
 
 
 				</ol>
@@ -205,7 +209,7 @@ Operadores</li>
 					<h3>Enlaces</h3>
 					<ul>
 						<li><a href="index.html" title="">Home</a></li>
-						<li><a href="explore.html" title="">¿Qué es Fas<strong>Track</strong>?</a></li>
+						<li><a href="explore.html" title="">¿Qué es fas<strong>Track</strong>?</a></li>
 
 					</ul>
 				</div>
@@ -237,7 +241,7 @@ Operadores</li>
 		<div class="container">
 			<div class="row">
 				<div class="span4">
-					&copy; 2012 Fas<strong>Track</strong> Satelital
+					&copy; 2012 fas<strong>Track</strong> Satelital
 				</div>
 				<div class="span4">
 					<i class="icon-phone"></i> &nbsp; 

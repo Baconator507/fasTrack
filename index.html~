@@ -5,7 +5,7 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html class="not-ie" lang="en"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-	<title>FasTrack | Localizador Satelital</title>
+	<title>fasTrack | Localizador Satelital | AVL</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Page description">
 	<meta name="author" content="Your name">
@@ -113,11 +113,11 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</a>
-<img src ="img/logo.png"></img>
+					<a class="brand" href="index.html">fas<b>Track</b></a>
 					<div class="nav-collapse fr">
 						<ul class="nav">
 							<li class="active"><a href="index.html" title="">Home</a></li>
-						<li><a href="explore.html" title="">¿Qué es Fas<strong>Track</strong>?</a></li>
+						<li><a href="explore.html" title="">¿Qué es fas<strong>Track</strong>?</a></li>
 						<li><a href="work.html" title="">Login</a></li>
 						<li><a href="plans.html" title="">Planes</a></li>
 						<li><a href="contact.html" title="">Contáctenos</a></li>
@@ -135,7 +135,9 @@
 
 		<!-- headin gtext -->
 		<p class="ac">
-			Fas<strong>Track</strong> | Localizador Satelital 
+
+			fas<strong>Track</strong> | Localizador Satelital | AVL
+
 		</p>
 
 		<!-- Carousel -->	
@@ -144,7 +146,7 @@
 				<!-- Carousel items -->				
 				<div class="carousel-inner">
 					<div class="active item">
-						<img src="img/carousel/1.png"  height=300 widht=423 />
+						<img src="img/carousel/1.jpg"  height=300 widht=423 />
 					</div>
 					<div class="item">
 						<img src="img/carousel/2.jpg" height=300 widht=423 />
@@ -260,7 +262,7 @@
 	<hr />
 		<div class="span8">
 			<h1 class="lead">
-				<b>Fas<strong>Track</strong></b> es un sistema de localización satelital que utiliza herramientas de posicionamiento global (GPS) y mapas digitalizados para una medida de nuevas soluciones tecnológicas y de información para fortalecer la supervisión, seguridad, y control de los recursos móviles de una empresa.
+				<b>fas<strong>Track</strong></b> es un sistema de localización satelital que utiliza herramientas de posicionamiento global (GPS) y mapas digitalizados para una medida de nuevas soluciones tecnológicas y de información para fortalecer la supervisión, seguridad, y control de los recursos móviles de una empresa.
 			</h1>
 		</div>
 		<div class="span4">
@@ -280,8 +282,8 @@
 					<h3>Enlaces</h3>
 					<ul>
 						<li><a href="index.html" title="">Home</a></li>
-						<li><a href="explore.html" title="">¿Qué es Fas<strong>Track</strong>?</a></li>
-						<li><a href="http://fastrack.rastrac.net/rtisa/login_pages/login.aspx" title="">Login Manning</a></li>
+						<li><a href="explore.html" title="">¿Qué es fas<strong>Track</strong>?</a></li>
+
 					</ul>
 				</div>
 				<div class="span2">
@@ -290,7 +292,6 @@
 						<li><a href="work.html" title="">Login</a></li>
 						<li><a href="plans.html" title="">Planes</a></li>
 						<li><a href="contact.html" title="">Contáctenos</a></li>
-						<li><a href="http://fastrack.positionlogic.com/Login.aspx" title="">Login PositionLogic</a></li>
 						
 					</ul>
 				</div>
@@ -313,7 +314,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="span4">
-					&copy; 2012 Fas<strong>Track</strong> Satelital
+					&copy; 2012 fas<strong>Track</strong> Satelital
 				</div>
 				<div class="span4">
 					<i class="icon-phone"></i> &nbsp; 
