@@ -5,13 +5,15 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html class="not-ie" lang="en"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-	<title>fasTrack | Localizador Satelital | AVL</title>
+	<title>FasTrack | Localizador Satelital</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Page description">
 	<meta name="author" content="Your name">
 
 	<!-- Custom css -->
 	<link href="css/style.min.css" rel="stylesheet">
+	<link href="css/bootstrap/bootstrap-responsive.css" rel="stylesheet">
+	
 
 	<link href="css/font-awesome/font-awesome.css" rel="stylesheet">
 	<!--[if IE 7]>
@@ -26,8 +28,7 @@
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script src="js/twitter.js" type="text/javascript"></script>
 	<script>!window.jQuery && document.write(unescape('%3Cscript src="js/jquery-1.7.2.min.js"%3E%3C/script%3E'))</script>
         <script type="text/javascript">
@@ -48,6 +49,8 @@
 			padding-left: 140px;
 			background: transparent url('./img/gps-icon.png') no-repeat left top;
 			margin: 8px 0 20px;
+			min-height:100px;
+			height:100%;
 		}
 		.service p{
 			font-size:80%;
@@ -55,6 +58,8 @@
 		.admin{
 			padding-left: 140px;
 			background: transparent url('./img/admin-icon.png') no-repeat left top;
+			height:100%;
+			min-height:100px;
 			margin: 8px 0 20px;
 		}
 		.admin p{
@@ -62,6 +67,8 @@
 		}
 		.map{
 			padding-left: 140px;
+			height:100%;
+			min-height:100px;
 			background: transparent url('./img/map-icon.png') no-repeat left top;
 			margin: 8px 0 20px;
 		}
@@ -71,6 +78,8 @@
 		.security{
 			padding-left: 140px;
 			padding-bottom:48px;
+			height:100%;
+			min-height:100px;
 			background: transparent url('./img/security-icon.png') no-repeat left top;
 			margin: 8px 0 20px;
 		}
@@ -81,6 +90,8 @@
 			padding-left: 140px;
 			padding-bottom:20px;
 			background: transparent url('./img/phone-icon.png') no-repeat left top;
+			height:100%;
+			min-height:100px;
 			margin: 8px 0 20px;
 		}
 		.phone p{
@@ -90,10 +101,16 @@
 			padding-left: 140px;
 			padding-bottom:20px;
 			background: transparent url('./img/diversity-icon.png') no-repeat left top;
+			min-height:110px;
 			margin: 8px 0 20px;
 		}
 		.diversity p{
 			font-size:80%;
+		}
+		ul.dropdown-menu form{
+			padding:10px 30px;
+
+
 		}
 	</style>
 </head>
@@ -108,18 +125,30 @@
 		<div class="navbar">
 			<div class="navbar-inner">
 				<div class="container">
+					<a class="brand" href="index.html">Fas<b>Track</b></a>
 					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</a>
-					<a class="brand" href="index.html">fas<b>Track</b></a>
-					<div class="nav-collapse fr">
+					<div class="nav-collapse collapse pull-right">
 						<ul class="nav">
 							<li class="active"><a href="index.html" title="">Home</a></li>
-						<li><a href="explore.html" title="">¿Qué es fas<strong>Track</strong>?</a></li>
-						<li><a href="work.html" title="">Login</a></li>
-						<li><a href="plans.html" title="">Planes</a></li>
+							<li><a href="explore.html" title="">¿Qué es Fas<strong>Track</strong>?</a></li>
+							<li class="dropdown">
+							<a href="#" title="" class='dropdown-toggle' data-toggle="dropdown">
+								Login <b class="caret"></b>
+							</a>
+							<ul class="dropdown-menu">
+		<form class ="form" action="http://clients.dev507.com/fastrack/login.php">
+			<h4 id="h4">Username:</h4>
+			<input name="username"></br>
+			</br>
+			<input value="Login" type="submit" class="btn btn-large btn-primary"></form>
+
+							</ul>
+							</li>
+							<li><a href="plans.html" title="">Planes</a></li>
 						<li><a href="contact.html" title="">Contáctenos</a></li>
 
 						</ul>
@@ -135,13 +164,11 @@
 
 		<!-- headin gtext -->
 		<p class="ac">
-
-			fas<strong>Track</strong> | Localizador Satelital | AVL
-
+			Localizador Satelital | Sistema AVL
 		</p>
 
 		<!-- Carousel -->	
-		<div id="macbook_carousel">
+		<div id="macbook_carousel" class=" hidden-phone">
 			<div id="carousel" class="carousel slide" rel="carousel">
 				<!-- Carousel items -->				
 				<div class="carousel-inner">
@@ -262,7 +289,7 @@
 	<hr />
 		<div class="span8">
 			<h1 class="lead">
-				<b>fas<strong>Track</strong></b> es un sistema de localización satelital que utiliza herramientas de posicionamiento global (GPS) y mapas digitalizados para una medida de nuevas soluciones tecnológicas y de información para fortalecer la supervisión, seguridad, y control de los recursos móviles de una empresa.
+				<b>Fas<strong>Track</strong></b> es un sistema de localización satelital que utiliza herramientas de posicionamiento global (GPS) y mapas digitalizados para una medida de nuevas soluciones tecnológicas y de información para fortalecer la supervisión, seguridad, y control de los recursos móviles de una empresa.
 			</h1>
 		</div>
 		<div class="span4">
@@ -282,7 +309,7 @@
 					<h3>Enlaces</h3>
 					<ul>
 						<li><a href="index.html" title="">Home</a></li>
-						<li><a href="explore.html" title="">¿Qué es fas<strong>Track</strong>?</a></li>
+						<li><a href="explore.html" title="">¿Qué es Fas<strong>Track</strong>?</a></li>
 
 					</ul>
 				</div>
@@ -314,7 +341,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="span4">
-					&copy; 2012 fas<strong>Track</strong> Satelital
+					&copy; 2012 Fas<strong>Track</strong> Satelital
 				</div>
 				<div class="span4">
 					<i class="icon-phone"></i> &nbsp; 
@@ -341,3 +368,4 @@
 
 </body>
 </html>
+
