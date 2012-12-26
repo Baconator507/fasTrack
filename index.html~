@@ -5,7 +5,7 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html class="not-ie" lang="en"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-	<title>FasTrack | Localizador Satelital</title>
+	<title>FasTrack | Localizador Satelital | AVL</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Page description">
 	<meta name="author" content="Your name">
@@ -113,7 +113,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</a>
-<img src ="img/logo.png"></img>
+					<a class="brand" href="index.html">Fas<b>Track</b></a>
 					<div class="nav-collapse fr">
 						<ul class="nav">
 							<li class="active"><a href="index.html" title="">Home</a></li>
@@ -135,7 +135,11 @@
 
 		<!-- headin gtext -->
 		<p class="ac">
-			Fas<strong>Track</strong> | Localizador Satelital 
+<<<<<<< HEAD
+			Fas<strong>Track</strong> | Localizador Satelital | AVL
+=======
+			Localizador Satelital | Sistema AVL
+>>>>>>> 9fa42b3d096d928a757ac39788cc39f995d22f2e
 		</p>
 
 		<!-- Carousel -->	
@@ -144,7 +148,7 @@
 				<!-- Carousel items -->				
 				<div class="carousel-inner">
 					<div class="active item">
-						<img src="img/carousel/1.png"  height=300 widht=423 />
+						<img src="img/carousel/1.jpg"  height=300 widht=423 />
 					</div>
 					<div class="item">
 						<img src="img/carousel/2.jpg" height=300 widht=423 />
