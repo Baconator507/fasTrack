@@ -57,7 +57,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</a>
-					<img src ="img/logo.png"></img>
+					<a class="brand" href="index.html">fas<b>Track</b></a>
 					<div class="nav-collapse fr">
 							<ul class="nav">
 							<li><a href="index.html" title="">Home</a></li>
