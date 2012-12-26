@@ -4,7 +4,7 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html class="not-ie" lang="en"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-	<title>FasTrack | ¿Qué es FasTrack?</title>
+	<title>fasTrack | ¿Qué es fasTrack?</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Page description">
 	<meta name="author" content="Your name">
@@ -59,7 +59,7 @@
 					<div class="nav-collapse fr">
 								<ul class="nav">
 							<li><a href="index.html" title="">Home</a></li>
-						<li class="active"><a href="explore.html" title="">¿Qué es Fas<strong>Track</strong>?</a></li>
+						<li class="active"><a href="explore.html" title="">¿Qué es fas<strong>Track</strong>?</a></li>
 						<li><a href="work.html" title="">Login</a></li>
 						<li><a href="plans.html" title="">Planes</a></li>
 						<li><a href="contact.html" title="">Contáctenos</a></li>
@@ -75,7 +75,7 @@
 	<div id="content" class="container">
 	<div class="hero-unit">
 		<div class="ac">
-			<h1>¿Qué es Fas<strong>Track</strong>?</h1><br />
+			<h1>¿Qué es fas<strong>Track</strong>?</h1><br />
 		
 		</div>
 	</div>
@@ -88,18 +88,18 @@
 			<div class="span8">
 				
 				<p>
-					Fas<strong>Track</strong> es un sistema de localización satelital que utiliza herramientas de posicionamiento global (GPS) y mapas digitalizados para una medida de nuevas soluciones tecnológicas y de información para fortalecer la supervisión, seguridad, y control de los recursos móviles de una empresa.</p>
+					fas<strong>Track</strong> es un sistema de localización satelital que utiliza herramientas de posicionamiento global (GPS) y mapas digitalizados para una medida de nuevas soluciones tecnológicas y de información para fortalecer la supervisión, seguridad, y control de los recursos móviles de una empresa.</p>
 
-<p>Con Fas<strong>Track</strong> usted podrá saber en todo momento en donde se encuentran sus recursos móviles. Fastrack da seguimiento a cualquier tipo de vehículo terrestre, aéreo, o marítimo.</p>
+<p>Con fas<strong>Track</strong> usted podrá saber en todo momento en donde se encuentran sus recursos móviles. fas<strong>Track</strong> da seguimiento a cualquier tipo de vehículo terrestre, aéreo, o marítimo.</p>
 
-<p>El sistema de localización automatizada de vehículos (AVL) de Fas<strong>Track</strong>, trabaja recibiendo coordenadas del sistema satelital militar “GPS”, el cual ha sido habilitado para el uso comercial. Estas coordenadas recibidas son procesadas por un “receptor –modem” instalados en el vehículo y transmitidas a un centro de gestión para determinar la localización exacta del móvil.</p>
+<p>El sistema de localización automatizada de vehículos (AVL) de fas<strong>Track</strong>, trabaja recibiendo coordenadas del sistema satelital militar “GPS”, el cual ha sido habilitado para el uso comercial. Estas coordenadas recibidas son procesadas por un “receptor –modem” instalados en el vehículo y transmitidas a un centro de gestión para determinar la localización exacta del móvil.</p>
 
 
 
 			</div>
 			<div class="span4">
 				<p>
-					<img rel="tooltip" title="Some title" alt="" class="thumbnail fr" src="./img/map-icon.png" width="240" />
+					<img  alt="" class="thumbnail" src="./img/fleet.jpg" width="300" />
 				</p>
 			</div>
 		</div>
@@ -110,7 +110,7 @@
 
 			<div class="span3">
 				<p>
-					<img rel="tooltip" title="Some title" alt="" class="thumbnail" src="http://image.shutterstock.com/display_pic_with_logo/183487/183487,1306438770,2/stock-vector-social-network-background-with-media-icons-78037456.jpg" width="200" />
+					<img alt="" class="thumbnail" src="./img/18wheeler.jpg" width="240" />
 				</p>
 			</div>      	
 			<div class="span9">
@@ -128,7 +128,7 @@
 			<div class="span8">
 				<h3>Acerca de Nosotros</h3>
 				<p>
-					Fas<strong>Track</strong>, S.A. es una empresa líder en tecnología de Sistemas de Localización Satelital en Panamá, con más de 7 años atendiendo las necesidades de nuestros clientes con un alto grado de responsabilidad, garantía de servicio y productos de alta calidad.
+					fas<strong>Track</strong>, S.A. es una empresa líder en tecnología de Sistemas de Localización Satelital en Panamá, con más de 7 años atendiendo las necesidades de nuestros clientes con un alto grado de responsabilidad, garantía de servicio y productos de alta calidad.
 				</p>
 <h4>Misión</h4>
 				<p>
@@ -141,7 +141,7 @@
 			</div>
 			<div class="span4">
 				<p>
-					<img alt="" rel="tooltip" title="Some title" class="thumbnail fr" src="http://image.shutterstock.com/display_pic_with_logo/368671/368671,1296679547,7/stock-photo-background-image-of-d-70345660.jpg" width="240" />
+					<img  alt="" class="thumbnail" src="./img/dude_gps.jpg" width="200" />
 				</p>
 			</div>
 		</div>
@@ -164,13 +164,12 @@
 	<footer class="row">
 		<div class="container">
 			<div class="row">
-				<div class="span2">
+	<div class="span2">
 					<h3>Enlaces</h3>
 					<ul>
 						<li><a href="index.html" title="">Home</a></li>
-						<li><a href="explore.html" title="">¿Qué es Fas<strong>Track</strong>?</a></li>
+						<li><a href="explore.html" title="">¿Qué es fas<strong>Track</strong>?</a></li>
 
-						<li><a href="http://fastrack.rastrac.net/rtisa/login_pages/login.aspx" title="">Login Manning</a></li>
 					</ul>
 				</div>
 				<div class="span2">
@@ -179,7 +178,6 @@
 						<li><a href="work.html" title="">Login</a></li>
 						<li><a href="plans.html" title="">Planes</a></li>
 						<li><a href="contact.html" title="">Contáctenos</a></li>
-						<li><a href="http://fastrack.positionlogic.com/Login.aspx" title="">Login PositionLogic</a></li>
 						
 					</ul>
 				</div>
@@ -202,7 +200,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="span4">
-					&copy; 2012 Fas<strong>Track</strong> Satelital
+					&copy; 2012 fas<strong>Track</strong> Satelital
 				</div>
 				<div class="span4">
 					<i class="icon-phone"></i> &nbsp; 

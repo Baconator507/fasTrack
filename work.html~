@@ -143,13 +143,12 @@
 	<footer class="row">
 		<div class="container">
 			<div class="row">
-				<div class="span2">
+<div class="span2">
 					<h3>Enlaces</h3>
 					<ul>
 						<li><a href="index.html" title="">Home</a></li>
 						<li><a href="explore.html" title="">¿Qué es Fas<strong>Track</strong>?</a></li>
 
-						<li><a href="http://fastrack.rastrac.net/rtisa/login_pages/login.aspx" title="">Login Manning</a></li>
 					</ul>
 				</div>
 				<div class="span2">
@@ -158,7 +157,6 @@
 						<li><a href="work.html" title="">Login</a></li>
 						<li><a href="plans.html" title="">Planes</a></li>
 						<li><a href="contact.html" title="">Contáctenos</a></li>
-						<li><a href="http://fastrack.positionlogic.com/Login.aspx" title="">Login PositionLogic</a></li>
 						
 					</ul>
 				</div>
