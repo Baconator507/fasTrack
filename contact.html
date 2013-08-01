@@ -4,6 +4,29 @@
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html class="not-ie" lang="en"> <!--<![endif]-->
 <head>
+<script>
+function validateUser() {
+var input = document.getElementById('username').value; 
+
+switch(true) {
+case (input.indexOf('pl-') >= 0):
+window.location = 'http://fastrack.positionlogic.com/';
+break;
+case (input.indexOf('wt-') >= 0):
+window.location = 'http://204.232.130.228/fastrack/Login.aspx';
+break;
+case (input.indexOf('mg-') >= 0):
+window.location = 'http://fastrack.rastrac.net/rtisa/login_pages/login.aspx';
+break;
+case (!input.length):
+ alert('Por favor ingrese un usuario');
+break;
+default:
+ alert('Recuerde agregar el prefijo asignado a su cuenta. Para asistencia llame al 270-3133 y con gusto se le atendera. Disculpe las molestias, trabajamos para su seguridad.');
+break;
+}
+}
+</script>
 	<meta charset="utf-8">
 	<title>Fastrack | Contáctenos</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -82,6 +105,7 @@
 							<li><a href="explore.html" title="">¿Qué es <strong>Fastrack</strong>?</a></li>
 							</li>
 							<li><a href="plans.html" title="">Planes</a></li>
+						<li><a href="https://secure.merchantprocess.net/Payments/Client/fastrack" target="_blank" title="">Pagos</a></li>
 						<li class="active"><a href="contact.html" title="">Contáctenos</a></li>
 						<li class='visible-phone'><a href="work.html" title=""><strong>Login</strong></a></li>
 							<li class="dropdown hidden-phone">
@@ -89,11 +113,10 @@
 								Login <b class="caret"></b>
 							</a>
 							<ul class="dropdown-menu hidden-phone">
-							<form class ="form" action="http://fastrack-env-hdcw6fi4wf.elasticbeanstalk.com/fastrack">
-					<h4 id="h4">Username:</h4>
-				<input name="username"></br>
+				<form>	<h4 id="h4">Usuario:</h4>
+				<input type="text" id="username"></br>
 				</br>
-						<input value="Login" type="submit" class="btn btn-large btn-primary"></form>
+				<input type="button" value="Login" onclick="validateUser()"  class="btn btn-large btn-primary"></form>
 
 							</ul>
 
@@ -168,7 +191,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="span4">
-					&copy; 2012 <strong>Fastrack</strong> Satelital
+					&copy; 2013 <strong>Fastrack</strong> Satelital
 				</div>
 				<div class="span4">
 					<i class="icon-phone"></i> &nbsp; 

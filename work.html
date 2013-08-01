@@ -4,11 +4,34 @@
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html class="not-ie" lang="en"> <!--<![endif]-->
 <head>
+<script>
+function validateUser() {
+var input = document.getElementById('username').value; 
+
+switch(true) {
+case (input.indexOf('pl-') >= 0):
+window.location = 'http://fastrack.positionlogic.com/';
+break;
+case (input.indexOf('wt-') >= 0):
+window.location = 'http://204.232.130.228/fastrack/Login.aspx';
+break;
+case (input.indexOf('mg-') >= 0):
+window.location = 'http://fastrack.rastrac.net/rtisa/login_pages/login.aspx';
+break;
+case (!input.length):
+ alert('Por favor ingrese un usuario');
+break;
+default:
+ alert('Recuerde agregar el prefijo asignado a su cuenta. Para asistencia llame al 270-3133 y con gusto se le atendera. Disculpe las molestias, trabajamos para su seguridad.');
+break;
+}
+}
+</script>
 	<meta charset="utf-8">
-	<title>FasTrack | Localizador Satelital</title>
+	<title>Fastrack | Localizador Satelital</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Page description">
-	<meta name="author" content="Your name">
+  <meta name="description" content="FasTrack es un sistema de localización satelital que utiliza herramientas de posicionamiento global (GPS) y mapas digitalizados para una medida de nuevas soluciones tecnológicas y de información para fortalecer la supervisión, seguridad, y control de los recursos móviles de una empresa.">
+	<meta name="author" content="Dev507.com">
 
 	<!-- Custom css -->
 	<link href="css/style.min.css" rel="stylesheet">
@@ -18,6 +41,10 @@
 	<!--[if IE 7]>
 		<link href="css/font-awesome/font-awesome-ie7.css" rel="stylesheet">
 	<![endif]-->
+	<!-- Load Open sans from Google Font Directory -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Contrail+One|Squada+One|Fjalla+One' rel='stylesheet' type='text/css'>
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 
 	<!-- Load Open sans from Google Font Directory -->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
@@ -27,9 +54,8 @@
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script src="js/twitter.js" type="text/javascript"></script>
-	<script>!window.jQuery && document.write(unescape('%3Cscript src="js/jquery-1.7.2.min.js"%3E%3C/script%3E'))</script>
         <script type="text/javascript">
             getTwitters('tweet', { 
                 id: 'FastrackPanama', 
@@ -40,7 +66,7 @@
                 template: '"%text%" <a href="http://twitter.com/%user_screen_name%/statuses/%id_str%/">%time%</a>'
             });
         </script>
-<script>!window.jQuery && document.write(unescape('%3Cscript src="js/jquery-1.7.2.min.js"%3E%3C/script%3E'))</script>
+	<script>!window.jQuery && document.write(unescape('%3Cscript src="js/jquery-1.7.2.min.js"%3E%3C/script%3E'))</script>
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -54,62 +80,6 @@
   })();
 
 </script>
-	<style>
-		.center{
-			text-align:center;
-		}
-		.service{
-			padding-left: 140px;
-			background: transparent url('./img/gps-icon.png') no-repeat left top;
-			margin: 8px 0 20px;
-		}
-		.service p{
-			font-size:80%;
-		}
-		.admin{
-			padding-left: 140px;
-			background: transparent url('./img/admin-icon.png') no-repeat left top;
-			margin: 8px 0 20px;
-		}
-		.admin p{
-			font-size:80%;
-		}
-		.map{
-			padding-left: 140px;
-			background: transparent url('./img/map-icon.png') no-repeat left top;
-			margin: 8px 0 20px;
-		}
-		.map p{
-			font-size:80%;
-		}
-		.security{
-			padding-left: 140px;
-			padding-bottom:48px;
-			background: transparent url('./img/security-icon.png') no-repeat left top;
-			margin: 8px 0 20px;
-		}
-		.security p{
-			font-size:80%;
-		}
-		.phone{
-			padding-left: 140px;
-			padding-bottom:20px;
-			background: transparent url('./img/phone-icon.png') no-repeat left top;
-			margin: 8px 0 20px;
-		}
-		.phone p{
-			font-size:80%;
-		}
-		.diversity{
-			padding-left: 140px;
-			padding-bottom:20px;
-			background: transparent url('./img/diversity-icon.png') no-repeat left top;
-			margin: 8px 0 20px;
-		}
-		.diversity p{
-			font-size:80%;
-		}
-	</style>
 </head>
 <body>
 
@@ -122,25 +92,39 @@
 		<div class="navbar">
 			<div class="navbar-inner">
 				<div class="container">
+					<a class="brand" href="index.html"><img src="img/logo.png"></a>
 					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</a>
-					<a class="brand" href="index.html">fas<b>Track</b></a>
-					<div class="nav-collapse fr">
-							<ul class="nav">
+					<div class="nav-collapse collapse pull-right">
+						<ul class="nav">
 							<li><a href="index.html" title="">Home</a></li>
-						<li><a href="explore.html" title="">¿Qué es Fas<strong>Track</strong>?</a></li>
-						<li class="active"><a href="work.html" title="">Login</a></li>
-						<li><a href="plans.html" title="">Planes</a></li>
-						<li><a href="contact.html" title="">Contáctenos</a></li>
+							<li class="active"><a href="explore.html" title="">Â¿QuÃ© es <strong>Fastrack</strong>?</a></li>
+							</li>
+							<li><a href="plans.html" title="">Planes</a></li>
+						<li><a href="https://secure.merchantprocess.net/Payments/Client/fastrack" target="_blank" title="">Pagos</a></li>
+						<li><a href="contact.html" title="">ContÃ¡ctenos</a></li>
+						<li class='visible-phone'><a href="work.html" title=""><strong>Login</strong></a></li>
+							<li class="dropdown hidden-phone">
+							<a href="#" title="" class='dropdown-toggle' data-toggle="dropdown">
+								Login <b class="caret"></b>
+							</a>
+							<ul class="dropdown-menu hidden-phone">
+				<form>	<h4 id="h4">Usuario:</h4>
+				<input type="text" id="username"></br>
+				</br>
+				<input type="button" value="Login" onclick="validateUser()"  class="btn btn-large btn-primary"></form>
+
+							</ul>
 
 						</ul>
 					</div><!--/.nav-collapse -->
 				</div><!-- end .container -->
 			</div><!-- end .navbar-inner -->
 		</div><!-- end .navbar -->
+
 
 	<!-- Content
 	================================================== -->
@@ -193,7 +177,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="span4">
-					&copy; 2012 Fas<strong>Track</strong> Satelital
+					&copy; 2013 Fas<strong>Track</strong> Satelital
 				</div>
 				<div class="span4">
 					<i class="icon-phone"></i> &nbsp; 
